@@ -133,7 +133,7 @@ describe('Test accounts page', function () {
         // Open 'Start Date' date picker in 'Accounts' page.
         await openDatePicker();
 
-        const [month, day, year] = DATE.split('/');
+        const [day, month, year] = DATE.split('/');
 
         await selectYear(year);
 
